@@ -41,7 +41,7 @@ a{
     
     background-color: rgb(63, 147, 226);
     border-radius:8px;
-    margin-bottom: 8px;
+    margin-bottom: 15px;
     
     
 }
@@ -61,6 +61,7 @@ h2{
     justify-content:center;
     flex-wrap: wrap;
     gap:18px;
+    margin:30px;
  
 }
 .flex-images img{
@@ -72,5 +73,40 @@ h2{
     width:300px;
     text-align: center;
 
+}
+.quote{
+    display:block;
+    background-color: rgb(198, 206, 206);
+    text-align: center;
+    padding:60px;
+    margin:auto 0;
+}
+.join{
+    display:flex;
+    justify-content: space-around;
+    color:white;
+    background-color: blue;
+    margin:50px;
+    padding:20px;
+    border-radius: 25px;
+
+    
+    
+}
+.join button{
+    height:30px;
+    width:80px;
+    padding:10px;
+    border-radius:8px;
+    border-color: aliceblue;
+    background-color: blue;
+    color: azure;
+    align-self: center;
+    
+    
+    
+}
+.join p{
+    max-width:50%;
 }
 
