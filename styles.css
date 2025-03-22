@@ -1,5 +1,7 @@
 *{
     background-color: rgb(2, 7, 63);
+    color:white;
+    font-family: 'Roboto', sans-serif;
 }
 ul{
     list-style-type: none;
@@ -23,4 +25,28 @@ a{
     display:flex;
     justify-content: flex-end;
     gap: 28px;
+}
+.awesome{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:30px;
+    padding:20px;
+}
+.this-text{
+    max-width: 50%;
+}
+.awesome button{
+    
+    background-color: rgb(63, 147, 226);
+    border-radius:8px;
+    margin-bottom: 8px;
+    
+    
+}
+.image1 img{
+    height:350px;
+    width:550px;
+    border-radius: 8px;
+    
 }
