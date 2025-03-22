@@ -36,15 +36,16 @@ a{
     justify-content: space-around;
     gap:30px;
     padding:20px;
+    margin-bottom:28px;
 }
 .this-text{
     max-width: 50%;
 }
 .awesome button{
-    
+    color:white;
     background-color: rgb(63, 147, 226);
-    border-radius:8px;
-    margin-bottom: 15px;
+    border-radius:5px;
+    margin: 15px;
     
     
 }
